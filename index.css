@@ -35,5 +35,23 @@ html, body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    position: relative;
+    /* todo parallax effect */
+
 }
 
+.heading-container {
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    position: absolute;
+    font-size: 3rem;text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.heading-container__heading {
+    
+}
